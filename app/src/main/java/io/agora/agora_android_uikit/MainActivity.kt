@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         try {
             agView = AgoraVideoViewer(
-                this, AgoraConnectionData("my-app-id"),
+                this, AgoraConnectionData("11f2a7b3687a4cc3b1546b2fd2a15358"),
                 agoraSettings = this.settingsWithExtraButtons()
             )
         } catch (e: Exception) {
